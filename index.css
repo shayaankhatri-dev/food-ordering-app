@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  width: 600px;
+  height: 1181px;
+  background-color: #f5f5f5;
+  font-family: Smythe;
+}
+
+header {
+  background-color: black;
+  width: 600px;
+  height: 167px;
+  padding: 1px;
+  background-image: url("/diner.png");
+}
+
+header h1 {
+  color: #ffff;
+  margin-left: 10%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+header h3 {
+  color: #ffff;
+  margin-left: 10%;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+
+.item {
+  padding: 20px;
+  width: 478px;
+  height: 140px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.item-container {
+  display: flex;
+  margin-top: 35px;
+}
+
+.emoji {
+  font-size: 78.2px;
+  margin: 0;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+}
+
+.ingredients {
+  font-weight: 300;
+  margin: 0;
+  font-size: 16px;
+  color: #8b8b8b;
+}
+
+.price {
+  margin: 0;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.add-item {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #d2d2d2;
+  font-weight: lighter;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+}
+
+.add-item:hover,
+.add-item:active {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.check-out {
+  margin-top: 15px;
+  padding: 20px;
+  width: 500px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.checkout-title {
+  font-size: 28;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.order-tile {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.total-price {
+  margin-right: 20px;
+  margin-left: 30%;
+  font-size: 20px;
+  margin-top: 0px;
+  width: 1px;
+}
+
+.total-qty {
+  margin-left: auto;
+  font-size: 20px;
+  margin-top: 0px;
+  position: static;
+  width: 1px;
+}
+
+.remove-item {
+  border: none;
+  background: none;
+  color: #8b8b8b;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.remove-item:hover {
+  font-weight: darker;
+  cursor: pointer;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  border-top: 1px solid black;
+}
+
+.total-bill-text {
+  font-size: 28px;
+  margin-top: 19px;
+  line-height: 24px;
+}
+.total-bill-value {
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.complete-order-btn {
+  background-color: #16db99;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  border: 0px;
+  width: 508px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: none;
+  border-radius: 4px;
+}
+
+.form-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 2.6%;
+  z-index: 1;
+  width: 495px;
+  padding: 20px;
+  height: 500px;
+  background-color: #ffff;
+  gap: 20px;
+  border-radius: 4px;
+}
+
+.form-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.form-inp {
+  width: 485px;
+  margin-left: 5px;
+  height: 60px;
+  font-size: 20px;
+  padding: 35px;
+  font-weight: 300;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.pay-btn {
+  background-color: #16db99;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  border: 0px;
+  width: 500px;
+  height: 71px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.confirmation-container {
+  margin-top: 0px;
+  background-color: #ecfdf5;
+  color: #065f46;
+  width: 504px;
+  height: 120px;
+  text-align: center;
+}
+
+.confirmation-message {
+  font-size: 32px;
+  padding-top: 35px;
+}
